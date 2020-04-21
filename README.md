@@ -1,5 +1,6 @@
 # Rasa_CustomUI-v_2.0
 ***Note**: This repo has been archived and updated with the new repo: https://github.com/JiteshGaikwad/Chatbot-Widget)*
+
 A Chat widget easy to connect to RASA bot to Custom Channel(a webpage).
 
 Added Support for 
