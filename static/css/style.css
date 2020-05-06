@@ -157,15 +157,35 @@ div.chats::-webkit-scrollbar-thumb:hover {
 .usrInput {
 	background: #f1f0f0;
 	padding: 0.5em;
-	width: 90%;
-	margin-left: 4%;
-	border-radius: 20px;
+	width: 85%;
+	margin-left: 2%;
+	border-radius: 15px;
 	box-shadow: 0px 2px 10px 1px #b5b5b5;
 	border: 0;
-	padding-left: 15px;
-	height: 40px;
+	padding-left: 10px;
+	height: 35px;
 }
-
+.Input_button {
+    /* position: absolute; */
+    /* bottom: 15px; */
+    width: 25px;
+    height: 25px;
+    /* padding: 0; */
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Icon, .Input_button:hover .Icon {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.Icon path, .Input_button:hover .Icon path {
+    fill: #2c2c46;
+}
 input:focus {
 	outline: none;
 }
